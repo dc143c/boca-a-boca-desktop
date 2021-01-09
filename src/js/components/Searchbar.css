@@ -1,0 +1,133 @@
+.search-container {
+    background-color: #fff;
+    width: 990px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    float: right;
+    margin-left: 3px;
+    border-radius: 0px 15px 0px 0px;
+    padding-left: 10px;
+}
+
+.search-input {
+    height: 50px;
+    width: 880px;
+    color: #DDDDDE;
+}
+
+.profile {
+    width: 100px;
+    height: 45px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstname {
+    color: #fff;
+}
+
+.profilepic {
+    width: 45px;
+    height: 45px;
+    background-color: #FF35AC;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.search-margin {
+    margin-top: 12.5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.firstname {
+    margin-left: -1px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.btn-profile {
+    background-color: white;
+    border: none;
+}
+
+Link:hover {
+    background-color: #FF35AC;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 9px;
+    right: 0;
+    margin-right: 0px;
+    left: auto;
+    background-color: #fff;
+    min-width: 200px;
+    min-height: 100px;
+    z-index: 1;
+}
+.dropdown-link {
+    float: none;
+    color: #DDDDDE;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content Link:hover {
+    background-color: #FF35AC;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-dropdown {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: small;
+    color: #DDDDDE
+}
+
+.user-info {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    display: block;
+}
+
+.margintl {
+    margin: 8px 0px 0px 8px;
+}
+
+.marginctrl {
+    margin: 10px 0px 0px 15px;
+}
